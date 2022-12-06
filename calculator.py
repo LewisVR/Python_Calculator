@@ -38,7 +38,8 @@ class menu(object):
                     {2}6-{1} Exit
 
                 """.format(Fore.GREEN, Fore.RESET, Fore.RED))
-
+       # İşlem yaptıralım
+        
 class Calculator(object):
     def Collection(self, n1, n2, total, choice):
         self.choice = choice
@@ -74,14 +75,9 @@ class Calculator(object):
             print("{0}[Hesap Makinesi]{1} {2} % {3} = : {4}".format(Fore.LIGHTGREEN_EX, Fore.RESET, str(self.n1), str(self.n2), str(self.total)))
         else:
             print("{0}[!!]{1} Beklenmeyen bir hata oluştu.".format(Fore.RED, Fore.RESET))
-    #def Extraction(self, n1, n2, total):
-    #    self.n1 = n1
-    #    self.n2 = n2
-    #    self.total = total
-    #    self.total = int(self.n1) - int(self.n2)
-    #    print("print("{0}[OK]{1} İt's: {2}".format(Fore.LIGHTGREEN_EX, Fore.RESET, str(self.total)))")
-    #def İmpact(self, n1, n2, total)
 
+            # İşlemlerin gerçekleştiği son bölüm
+            
 st = GetStartingControl()
 start = menu()
 Calc = Calculator()
